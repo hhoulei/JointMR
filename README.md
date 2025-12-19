@@ -10,7 +10,7 @@ JointMR: A joint likelihood-based approach for causal effect estimation in overl
 `load("exposure_list_trimmed.Rdata")`  
 `load("outcome_list_example.Rdata")`  
 `load("outcome_list_all.Rdata")`  
-`# The three file can be download from `  
+`# The three file can be download from https://github.com/hhoulei/JointMR_Simul. `  
 `N_list_example <- list(finn = 486367,`  
 `                       MVP  = 432648,`  
 `                       EPIC = 22326)`  
