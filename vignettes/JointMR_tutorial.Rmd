@@ -1,0 +1,14 @@
+---
+title: "JointMR: A joint likelihood-based approach for causal effect estimation using multiple GWAS summary databases in Mendelian randomization."
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Real-data analysis workflow using JointMR}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)

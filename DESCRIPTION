@@ -1,0 +1,29 @@
+Package: JointMR
+Type: Package
+Title: JointMR: A joint likelihood-based approach for causal effect estimation using multiple GWAS summary databases in Mendelian randomization
+Version: 0.1.0
+Authors@R: c(
+    person(
+      "Lei Hou", "Sijia Wu",
+      email = "hou.lei.sph@sdu.edu.cn",
+      role = c("aut", "cre")
+    )
+  )
+Description: A framework to estimate causal effects by integrating repeated Mendelian Randomization (MR) information obtained from all exposure-outcome GWAS database pairings. JointMR evaluates correlation structures among GWAS databases, constructs pleiotropy-adjusted Wald ratios, estimates instrumental variable heterogeneity, and implements a relaxed-NOME extension to account for measurement errors.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Depends: 
+  R (>= 3.5.0)
+Imports: 
+  MASS,stats,ldscr
+Remotes: 
+  mglev1n/ldscr
+Suggests: 
+  knitr,
+  rmarkdown,
+  testthat (>= 3.0.0)
+VignetteBuilder: knitr
+Config/testthat/edition: 3

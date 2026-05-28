@@ -1,0 +1,26 @@
+A framework to estimate causal effects by integrating repeated Mendelian
+Randomization (MR) information obtained from all exposure-outcome GWAS
+database pairings. JointMR evaluates correlation structures among GWAS
+databases, constructs pleiotropy-adjusted Wald ratios, estimates
+instrumental variable heterogeneity, and implements a relaxed-NOME
+extension to account for measurement errors.
+
+# Package index
+
+## All functions
+
+- [`JointMR_analysis()`](JointMR_analysis.md) : Estimate the causal
+  effect using JointMR
+- [`sample_exposure`](sample_exposure.md) : Sample exposure GWAS
+  datasets
+- [`sample_N_list`](sample_N_list.md) : Sample sizes for the mock GWAS
+  datasets
+- [`sample_outcome`](sample_outcome.md) : Sample outcome GWAS datasets
+
+# Articles
+
+### All vignettes
+
+- [JointMR: A joint likelihood-based approach for causal effect
+  estimation using multiple GWAS summary databases in Mendelian
+  randomization.](JointMR_tutorial.md):
