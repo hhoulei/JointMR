@@ -54,7 +54,7 @@ print(paste("Estimated Heterogeneity (tau^2):", round(results$tau_sq, 4)))
 
 ## 📊 Part 3: Real-data Analysis Workflow
 
-For actual data analysis, preparing the instrumental variables requires rigorous quality control and harmonization. Below is the standard workflow explaining how raw GWAS data is processed into the final JointMR estimates.
+For actual data analysis, preparing the instrumental variables requires rigorous quality control and harmonization. Below is the standard workflow explaining how raw GWAS data is processed into the final JointMR estimates. The R function in Step 1 and 2 can be download from https://github.com/hhoulei/JointMR_Simul/application-final.R, and Step 3 can be implemented using functions `JointMR_analysis()` from above R package JointMR.  
 
 ### Step 1: Input GWAS summary datasets
 
@@ -93,10 +93,6 @@ The main analysis is performed using our R package's core function `JointMR_anal
 The main results returned include the original JointMR estimate, the pleiotropy-adjusted estimate, the relaxed-NOME estimate, the estimated between-SNP heterogeneity variance, the horizontal pleiotropy test result and the estimated database correlation matrices.
 
 ---
-
-## 📖 Documentation
-
-Detailed documentation, including full API references and extended tutorials, is available at our [Official Website](https://hhoulei.github.io/JointMR/).
 
 ## 📝 Citation
 
