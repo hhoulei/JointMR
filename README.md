@@ -1,6 +1,5 @@
 # JointMR: Joint Mendelian Randomization for Estimating Causal Effects
 
-[![R-CMD-check](https://github.com/hhoulei/JointMR/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/hhoulei/JointMR/actions/workflows/R-CMD-check.yaml)
 **JointMR** is a novel analytical framework designed to estimate causal effects by integrating repeated Mendelian Randomization (MR) information obtained from all exposure-outcome GWAS database pairings. 
 
 Traditional MR relies on single GWAS datasets. In contrast, JointMR leverages multiple GWAS summary datasets for the same exposure and multiple GWAS summary datasets for the same outcome to improve statistical power and robustness.
